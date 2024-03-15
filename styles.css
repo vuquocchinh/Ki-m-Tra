@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#errorMesssage {
+    color: red;
+}
+
+#registerLink {
+    text-align: center;
+}
+
+#registerLink a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#registerLink a:hover {
+    text-decoration: underline;
+}
